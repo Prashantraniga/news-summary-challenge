@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>News Articles</title>
+    <script src="js/newsarticles.js"></script>
+    <script src="js/interface.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/style.css">
+    <style>
+    </style>
+  </head>
+  <body>
+    <div id="news_add"; style="float: left; display: inline; width: 665px; word-break: break-all; word-wrap: break-word;">
+      <h1>Articles</h1>
+      <p>
+        See Articles below
+      </p>
+      <form>
+        <label for="refresh_page"></label><textarea name="refresh_articles" id="refresh_page" placeholder="New Articles"></textarea>
+        <button type="refresh" name="refresh_page" id="new_articles" value="New Articles">New Articles</button>
+      </form>
+      <p style="text-align:left; font-weight:bold; font-stye:italic;">
+        <ul id="list_articles"></ul>
+      </p>
+    </div>
+    <div id="new_articles" style="float: left; display: inline; width: 665px; word-break; word-wrap: break-word; display:none;">
+      <h1>View Articles</h1>
+      <p id="article"></p>
+      <button id="Return to Home" type="button" onclick="javascript:SwapDivsWithClick('article_add','news_article')">Home</button>
+      <div class="row" id="home">
+
+      </div>
+
+    </div>
+
+  </body>
+  </html>

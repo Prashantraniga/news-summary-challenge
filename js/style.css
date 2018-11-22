@@ -1,0 +1,38 @@
+body {
+  font-family: Garamond;
+  font-size: 49px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 49px;
+  width: 80%;
+  height: auto;
+  text-align: centre;
+  margin: 10%;
+  background-image: url('https://ae01.alicdn.com/kf/HTB1VEhMhlfH8KJjy1Xbq6zLdXXam.jpg')
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+}
+
+#header-log-in {
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+#header-log-in:hover {
+  background-color: lightblue;
+}
+
+#signUp_submit {
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+#signUp_submit:hover {
+  background-color: pink;
+}
